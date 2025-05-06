@@ -21,15 +21,16 @@ This Terraform project deploys a public-facing Azure Load Balancer that distribu
 - `main.tf`: Terraform configuration for entire infrastructure
 - `outputs.tf`: Displays the public IP address of the load balancer
 - `.gitignore`: Prevents terraform state and local files from being tracked
-- `terraform-lb-output.png`: Terminal screenshot showing output IP
-- `azure-lb-vm-pool.png`: Azure portal screenshot showing VM backend pool
+- `terraform-output.png`: Terminal screenshot showing output IP
+- `azure-lb-view.png`: Azure portal screenshot showing VM backend pool
 
 ## 🖼️ Screenshots
 
-| File | Description |
-|------|-------------|
-| `terraform-lb-output.png` | Output of `terraform apply` showing public IP |
-| `azure-lb-vm-pool.png` | Azure Load Balancer backend pool showing VM(s) |
+![Terraform Output](./terraform-output.png)  
+*Shows result of `terraform apply`, including IP address*
+
+![Azure Resource](./azure-lb-view.png)  
+*Azure Portal: Load Balancer backend pool view*
 
 ## 🌐 Test It
 
